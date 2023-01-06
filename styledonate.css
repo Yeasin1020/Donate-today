@@ -1,0 +1,183 @@
+*{
+    margin: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    width: 100%;
+    height: 300px;
+    background-image: url(/images/donation13.jpg);
+    background-size: cover;
+}
+.header-all{
+    color: rgb(221, 217, 217);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.padding-top{
+    padding-top: 50px;
+}
+.header-h1{
+    font-weight: 1000;
+    font-size: 40px;
+}
+.header-p{
+    font-weight: 300;
+    font-size: 15px;
+}
+.button-box{
+   position: relative;
+   justify-content: center;
+   text-align: center;
+   padding-top: 10px;
+}
+.button{
+    padding: center;
+    background-color: rgb(223, 69, 69);    
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 0;
+    color: antiquewhite;
+}
+.button:hover{
+    background-color: antiquewhite;
+    color: rgb(223, 69, 69);
+    box-shadow: 10px 10px 10px;
+}
+
+/* body part */
+
+.body-header{
+    padding-top: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body-header-h1{
+    color: rgb(0, 0, 0);
+}
+.body-header-p{
+    color: rgb(88, 88, 89);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.donate-button-box{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.donate-button{
+    padding: 15px 5px;
+    border: 0;
+    margin-left: 15px;
+}
+.donate-button:hover{
+    background-color: rgb(245, 191, 191);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px;
+}
+.donate-button:focus{
+    background-color: rgb(245, 191, 191);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px;
+}
+.Donate-now-p{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.Donate-now-button{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+.Donate-now{
+    padding: center;
+    background-color: rgb(198, 44, 44);    
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 0;
+    color: antiquewhite;
+}
+.Donate-now:hover{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px;
+    color: rgb(198, 44, 44);
+}
+.Donate-now:focus{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px;
+    color: rgb(198, 44, 44);
+}
+.Donate-plan-header{
+    text-align: center;
+    padding: 20px;
+    color: antiquewhite;
+}
+.Donate-plan{
+    display: flex;
+    justify-content: space-around;
+}
+.food{
+    height: 250px;
+    background-color: antiquewhite;
+    padding: 5px 15px;
+    justify-items: center;
+    border-radius: 5px;
+}
+.food:hover{
+    box-shadow: 7px 7px 7px;
+}
+.food h2{
+    text-align: center;
+}
+.food img{
+    padding-left: 35%;
+}
+.food p{
+    text-align: center;
+    padding-top: 15px;
+}
+.shelter{
+    height: 250px;
+    background-color: rgb(133, 207, 111);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.shelter:hover{
+    box-shadow: 7px 7px 7px;
+}
+.shelter h2{
+    text-align: center;
+}
+.shelter img{
+    padding-left: 35%;
+}
+.shelter p{
+    text-align: center;
+    padding-top: 15px;
+}
+.education{
+    height: 250px;
+    background-color: rgb(237, 168, 78);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.education:hover{
+    box-shadow: 7px 7px 7px;
+}
+.education h2{
+    text-align: center;
+}
+.education img{
+    padding-left: 35%;
+}
+.education p{
+    text-align: center;
+    padding-top: 15px;
+}
+.bgimage{
+    background-image: url(/images/donation1.jpg);
+    background-size: cover;
+}
